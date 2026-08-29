@@ -1,0 +1,1162 @@
+/* ============================================================
+   GLOBAL
+   ============================================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background:
+        radial-gradient(
+            circle at 1px 1px,
+            #aaa 1px,
+            transparent 1px
+        );
+
+    background-size: 12px 12px;
+
+    background-color: #d7d7d7;
+
+    color: #222;
+
+    font-family:
+        "IBM Plex Mono",
+        monospace;
+}
+
+
+/* ============================================================
+   SITE
+   ============================================================ */
+
+.site {
+    width: min(
+        1100px,
+        calc(100% - 30px)
+    );
+
+    margin: 30px auto;
+
+    background: #eeeeee;
+
+    border: 1px solid #555;
+
+    box-shadow:
+        7px 7px 0 #777;
+}
+
+
+/* ============================================================
+   CAMERA HEADER
+   ============================================================ */
+
+.camera-header {
+
+    display: grid;
+
+    grid-template-columns:
+        140px
+        1fr
+        140px;
+
+    align-items: center;
+
+    min-height: 70px;
+
+    padding: 12px 18px;
+
+    background:
+        linear-gradient(
+            #555,
+            #292929
+        );
+
+    color: white;
+
+    border-bottom: 4px solid #111;
+
+    font-size: 12px;
+}
+
+.recording {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    font-weight: bold;
+}
+
+.record-dot {
+
+    width: 10px;
+    height: 10px;
+
+    display: inline-block;
+
+    border-radius: 50%;
+
+    background: #ff3b30;
+
+    box-shadow:
+        0 0 5px #ff3b30;
+
+    animation:
+        recording-blink 1s infinite;
+}
+
+@keyframes recording-blink {
+
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.35;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.camera-title {
+
+    text-align: center;
+
+    font-family:
+        "Press Start 2P",
+        monospace;
+
+    font-size: 13px;
+
+    letter-spacing: 1px;
+}
+
+.camera-status {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    align-items: center;
+
+    gap: 8px;
+}
+
+
+/* ============================================================
+   BATTERY
+   ============================================================ */
+
+.battery {
+
+    width: 35px;
+    height: 15px;
+
+    display: inline-block;
+
+    border: 2px solid currentColor;
+
+    padding: 2px;
+
+    position: relative;
+}
+
+.battery::after {
+
+    content: "";
+
+    position: absolute;
+
+    width: 3px;
+    height: 6px;
+
+    right: -5px;
+    top: 3px;
+
+    background: currentColor;
+}
+
+.battery-fill {
+
+    display: block;
+
+    width: 70%;
+    height: 100%;
+
+    background: currentColor;
+}
+
+
+/* ============================================================
+   NAVIGATION
+   ============================================================ */
+
+.navigation {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    padding: 11px;
+
+    background: #d4d4d4;
+
+    border-bottom: 1px solid #888;
+
+    font-size: 13px;
+}
+
+.navigation a {
+
+    color: #111;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+.navigation a:hover {
+
+    background: white;
+
+    text-decoration: underline;
+}
+
+
+/* ============================================================
+   HERO
+   ============================================================ */
+
+.hero {
+
+    display: grid;
+
+    grid-template-columns:
+        1fr
+        300px;
+
+    gap: 30px;
+
+    padding: 40px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f3f3f3,
+            #dcdcdc
+        );
+
+    border-bottom: 1px solid #999;
+}
+
+.hero-text {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.small-label {
+
+    font-size: 11px;
+
+    letter-spacing: 2px;
+
+    color: #777;
+}
+
+.hero h1 {
+
+    margin: 10px 0;
+
+    font-family:
+        "Press Start 2P",
+        monospace;
+
+    font-size: 32px;
+
+    line-height: 1.5;
+}
+
+.hero p {
+
+    max-width: 550px;
+
+    line-height: 1.7;
+
+    font-size: 14px;
+}
+
+.status-line {
+
+    font-weight: bold;
+}
+
+
+/* ============================================================
+   CAMERA DISPLAY
+   ============================================================ */
+
+.camera-display {
+
+    padding: 12px;
+
+    background: #111;
+
+    border: 7px solid #777;
+
+    box-shadow:
+        inset 0 0 0 2px #222;
+
+    color: white;
+}
+
+.display-top,
+.display-bottom {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    font-size: 10px;
+}
+
+.display-image {
+
+    height: 190px;
+
+    margin: 12px 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    position: relative;
+
+    text-align: center;
+
+    background:
+        repeating-linear-gradient(
+            0deg,
+            #263829,
+            #263829 2px,
+            #304833 2px,
+            #304833 4px
+        );
+
+    border: 2px solid #111;
+
+    color: #91b49a;
+
+    text-shadow:
+        0 0 5px #91b49a;
+}
+
+.display-label {
+
+    font-family: monospace;
+
+    font-size: 17px;
+}
+
+.display-crosshair {
+
+    position: absolute;
+
+    font-size: 24px;
+
+    opacity: 0.35;
+}
+
+
+/* ============================================================
+   SECTIONS
+   ============================================================ */
+
+main,
+.info-panel,
+.guestbook {
+
+    padding: 35px 40px;
+}
+
+.section-heading {
+
+    margin-bottom: 25px;
+
+    padding-bottom: 8px;
+
+    border-bottom: 2px solid #555;
+
+    font-family:
+        "Press Start 2P",
+        monospace;
+
+    font-size: 14px;
+}
+
+
+/* ============================================================
+   PHOTO GRID
+   ============================================================ */
+
+.gallery {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 28px;
+}
+
+
+/* ============================================================
+   CAMERA PHOTO CARD
+   ============================================================ */
+
+.photo-card {
+
+    background:
+        linear-gradient(
+            #d8d8d8,
+            #bdbdbd
+        );
+
+    border:
+        2px solid #777;
+
+    padding: 7px;
+
+    box-shadow:
+        4px 4px 0 #888;
+
+    cursor: pointer;
+
+    position: relative;
+
+    transition:
+        transform 0.12s ease,
+        box-shadow 0.12s ease;
+}
+
+.photo-card:hover {
+
+    transform:
+        translate(-2px, -2px);
+
+    box-shadow:
+        6px 6px 0 #777;
+}
+
+
+/* little screw */
+
+.photo-card::before {
+
+    content: "•";
+
+    position: absolute;
+
+    left: 4px;
+    top: 2px;
+
+    font-size: 8px;
+
+    color: #666;
+}
+
+
+/* image */
+
+.photo-link {
+
+    display: block;
+
+    background: #111;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.photo-link img {
+
+    display: block;
+
+    width: 100%;
+
+    aspect-ratio: 4 / 3;
+
+    object-fit: cover;
+
+    filter:
+        contrast(1.03)
+        saturate(0.9);
+
+    transition:
+        transform 0.2s ease;
+}
+
+.photo-card:hover img {
+
+    transform:
+        scale(1.03);
+}
+
+
+/* fake LCD overlay */
+
+.photo-overlay {
+
+    position: absolute;
+
+    left: 8px;
+    top: 8px;
+
+    right: 8px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    color: white;
+
+    font-size: 9px;
+
+    text-shadow:
+        1px 1px 2px black;
+
+    pointer-events: none;
+}
+
+.photo-rec {
+
+    color: #fff;
+}
+
+.photo-rec-dot {
+
+    color: #ff3b30;
+}
+
+
+/* camera metadata */
+
+.photo-info {
+
+    padding: 10px 4px 3px;
+
+    font-size: 10px;
+
+    line-height: 1.65;
+}
+
+.photo-topline {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-bottom: 4px;
+}
+
+.photo-number {
+
+    font-weight: bold;
+}
+
+.photo-filename {
+
+    overflow: hidden;
+
+    white-space: nowrap;
+
+    text-overflow: ellipsis;
+
+    font-weight: bold;
+}
+
+.photo-camera {
+
+    color: #444;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+
+    text-overflow: ellipsis;
+}
+
+.photo-date {
+
+    color: #666;
+}
+
+
+/* ============================================================
+   STATS
+   ============================================================ */
+
+.info-panel {
+
+    background: #ddd;
+
+    border-top: 1px dashed #888;
+
+    border-bottom: 1px dashed #888;
+}
+
+.info-panel p {
+
+    max-width: 700px;
+
+    font-size: 13px;
+
+    line-height: 1.8;
+}
+
+.site-stats {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 15px;
+
+    margin-top: 25px;
+}
+
+.site-stats div {
+
+    padding: 15px;
+
+    text-align: center;
+
+    background: #eee;
+
+    border: 1px solid #888;
+
+    box-shadow:
+        3px 3px 0 #aaa;
+}
+
+.site-stats strong {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-family:
+        "Press Start 2P",
+        monospace;
+
+    font-size: 14px;
+}
+
+.site-stats span {
+
+    font-size: 9px;
+
+    color: #666;
+}
+
+
+/* ============================================================
+   GUESTBOOK
+   ============================================================ */
+
+.guestbook-entry {
+
+    position: relative;
+
+    margin-bottom: 15px;
+
+    padding: 15px;
+
+    background: #f4f4f4;
+
+    border: 1px solid #aaa;
+}
+
+.guest-name {
+
+    font-weight: bold;
+}
+
+.guest-date {
+
+    position: absolute;
+
+    right: 15px;
+    top: 15px;
+
+    color: #777;
+
+    font-size: 10px;
+}
+
+.guestbook-entry p {
+
+    margin-bottom: 0;
+
+    font-size: 13px;
+}
+
+.guestbook-sign {
+
+    margin-top: 25px;
+
+    text-align: center;
+}
+
+.guestbook-sign a {
+
+    color: #111;
+
+    font-weight: bold;
+}
+
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+footer {
+
+    padding: 30px;
+
+    text-align: center;
+
+    font-size: 10px;
+
+    color: #666;
+}
+
+.footer-line {
+
+    border-top: 2px dotted #888;
+
+    margin-bottom: 20px;
+}
+
+.visitor-number {
+
+    color: #222;
+
+    font-weight: bold;
+}
+
+.copyright {
+
+    margin-top: 25px;
+}
+
+
+/* ============================================================
+   LIGHTBOX
+   ============================================================ */
+
+.lightbox {
+
+    position: fixed;
+
+    inset: 0;
+
+    z-index: 1000;
+
+    display: none;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+    background:
+        rgba(0, 0, 0, 0.88);
+}
+
+.lightbox.visible {
+
+    display: flex;
+}
+
+
+/* ============================================================
+   PLAYBACK SCREEN
+   ============================================================ */
+
+.playback-screen {
+
+    width: min(
+        1000px,
+        100%
+    );
+
+    max-height: 95vh;
+
+    overflow: auto;
+
+    background: #171717;
+
+    border:
+        8px solid #777;
+
+    box-shadow:
+        0 0 0 2px #111,
+        10px 10px 0 rgba(0, 0, 0, 0.5);
+
+    color: #e7f3e8;
+}
+
+
+/* ============================================================
+   PLAYBACK HEADER
+   ============================================================ */
+
+.playback-top {
+
+    display: grid;
+
+    grid-template-columns:
+        1fr
+        1fr
+        1fr;
+
+    align-items: center;
+
+    padding: 10px 14px;
+
+    border-bottom: 1px solid #536555;
+
+    font-size: 11px;
+
+    font-weight: bold;
+}
+
+.playback-top > div:nth-child(2) {
+
+    text-align: center;
+}
+
+.playback-top > div:nth-child(3) {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: flex-end;
+
+    gap: 7px;
+}
+
+.playback-icon {
+
+    font-size: 9px;
+}
+
+
+/* ============================================================
+   LARGE IMAGE
+   ============================================================ */
+
+.playback-image-area {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 350px;
+
+    padding: 20px;
+
+    background:
+
+        repeating-linear-gradient(
+            0deg,
+            #243025,
+            #243025 2px,
+            #29382b 2px,
+            #29382b 4px
+        );
+}
+
+.playback-image-area img {
+
+    display: block;
+
+    max-width: 100%;
+
+    max-height: 62vh;
+
+    object-fit: contain;
+
+    box-shadow:
+        0 0 0 2px #101510;
+}
+
+
+/* LCD scan effect */
+
+.playback-image-area::after {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    pointer-events: none;
+
+    background:
+        repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 3px,
+            rgba(255,255,255,0.025) 3px,
+            rgba(255,255,255,0.025) 4px
+        );
+}
+
+
+/* Focus marker */
+
+.focus-box {
+
+    position: absolute;
+
+    top: 25px;
+    left: 25px;
+
+    font-size: 25px;
+
+    opacity: 0.65;
+}
+
+
+/* REC */
+
+.playback-rec {
+
+    position: absolute;
+
+    right: 25px;
+    top: 25px;
+
+    font-size: 11px;
+
+    text-shadow:
+        0 0 4px black;
+}
+
+
+/* ============================================================
+   METADATA
+   ============================================================ */
+
+.playback-info {
+
+    display: grid;
+
+    grid-template-columns:
+        1fr
+        1fr;
+
+    gap: 20px;
+
+    padding: 14px 18px;
+
+    border-top: 1px solid #536555;
+
+    border-bottom: 1px solid #536555;
+
+    font-size: 10px;
+}
+
+.metadata-right {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 5px 20px;
+}
+
+.meta-line {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-bottom: 7px;
+}
+
+.meta-line span {
+
+    color: #88a08b;
+
+    min-width: 55px;
+}
+
+.meta-line strong {
+
+    color: #d9eadb;
+
+    font-weight: 600;
+}
+
+
+/* ============================================================
+   PLAYBACK CONTROLS
+   ============================================================ */
+
+.playback-controls {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 10px;
+
+    padding: 12px 18px;
+}
+
+.playback-controls button {
+
+    padding: 8px 12px;
+
+    background: #252525;
+
+    color: #dceadd;
+
+    border: 1px solid #667c69;
+
+    font-family:
+        "IBM Plex Mono",
+        monospace;
+
+    font-size: 10px;
+
+    cursor: pointer;
+}
+
+.playback-controls button:hover {
+
+    background: #344337;
+}
+
+
+/* ============================================================
+   MOBILE
+   ============================================================ */
+
+@media (max-width: 800px) {
+
+    .camera-header {
+
+        grid-template-columns: 1fr;
+
+        gap: 10px;
+
+        text-align: center;
+    }
+
+    .recording,
+    .camera-status {
+
+        justify-content: center;
+    }
+
+    .hero {
+
+        grid-template-columns: 1fr;
+
+        padding: 25px;
+    }
+
+    .gallery {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .playback-info {
+
+        grid-template-columns: 1fr;
+    }
+
+    .metadata-right {
+
+        grid-template-columns:
+            repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+
+    .gallery {
+
+        grid-template-columns: 1fr;
+    }
+
+    .site-stats {
+
+        grid-template-columns: 1fr;
+    }
+
+    main,
+    .info-panel,
+    .guestbook {
+
+        padding: 25px;
+    }
+
+    .hero h1 {
+
+        font-size: 22px;
+    }
+
+    .playback-top {
+
+        grid-template-columns:
+            1fr
+            1fr;
+    }
+
+    .playback-top > div:nth-child(3) {
+
+        display: none;
+    }
+
+    .metadata-right {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+}

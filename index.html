@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>★ Kwame's Camera ★</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Pixel / mono fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Press+Start+2P&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+<div class="site">
+
+    <!-- =====================================================
+         CAMERA HEADER
+         ===================================================== -->
+
+    <header class="camera-header">
+
+        <div class="recording">
+            <span class="record-dot"></span>
+            REC
+        </div>
+
+        <div class="camera-title">
+            ★ KWAME'S DIGITAL CAMERA ★
+        </div>
+
+        <div class="camera-status">
+
+            <span>BAT</span>
+
+            <span class="battery">
+                <span class="battery-fill"></span>
+            </span>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         NAVIGATION
+         ===================================================== -->
+
+    <nav class="navigation">
+
+        <a href="#gallery">[ PHOTOS ]</a>
+
+        <span>|</span>
+
+        <a href="#about">[ ABOUT ]</a>
+
+        <span>|</span>
+
+        <a href="#guestbook">[ GUESTBOOK ]</a>
+
+    </nav>
+
+
+    <!-- =====================================================
+         HERO
+         ===================================================== -->
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <div class="small-label">
+                DIGITAL PHOTO ARCHIVE
+            </div>
+
+            <h1>
+                welcome :)
+            </h1>
+
+            <p>
+                photographs taken with my little digital camera.
+            </p>
+
+            <p class="status-line">
+                ● CAMERA ONLINE
+            </p>
+
+        </div>
+
+
+        <div class="camera-display">
+
+            <div class="display-top">
+
+                <span>● REC</span>
+
+                <span>PLAYBACK</span>
+
+            </div>
+
+
+            <div class="display-image">
+
+                <div class="display-crosshair">
+                    +
+                </div>
+
+                <div class="display-label">
+                    CAMERA<br>
+                    ARCHIVE
+                </div>
+
+            </div>
+
+
+            <div class="display-bottom">
+
+                <span>SD</span>
+
+                <span id="hero-photo-count">
+                    000 / 000
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         GALLERY
+         ===================================================== -->
+
+    <main id="gallery">
+
+        <div class="section-heading">
+            <span>★</span>
+            PHOTO ARCHIVE
+            <span>★</span>
+        </div>
+
+
+        <div class="gallery" id="gallery-grid">
+
+            <!-- JavaScript inserts photos -->
+
+        </div>
+
+    </main>
+
+
+    <!-- =====================================================
+         ABOUT
+         ===================================================== -->
+
+    <section id="about" class="info-panel">
+
+        <div class="section-heading">
+            ABOUT THIS SITE
+        </div>
+
+        <p>
+            This is a personal archive of photographs taken
+            with my digital camera.
+        </p>
+
+        <p>
+            Nothing here is particularly important.
+            That's kind of the point.
+        </p>
+
+
+        <div class="site-stats">
+
+            <div>
+                <strong id="photo-count">0</strong>
+                <span>PHOTOS</span>
+            </div>
+
+            <div>
+                <strong>2000s</strong>
+                <span>ENERGY</span>
+            </div>
+
+            <div>
+                <strong id="last-updated">--</strong>
+                <span>UPDATED</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         GUESTBOOK
+         ===================================================== -->
+
+    <section id="guestbook" class="guestbook">
+
+        <div class="section-heading">
+            ★ GUESTBOOK ★
+        </div>
+
+
+        <div class="guestbook-entry">
+
+            <div class="guest-name">
+                alex ★
+            </div>
+
+            <div class="guest-date">
+                08/29/26
+            </div>
+
+            <p>
+                these pictures are sick lol
+            </p>
+
+        </div>
+
+
+        <div class="guestbook-entry">
+
+            <div class="guest-name">
+                maria ★
+            </div>
+
+            <div class="guest-date">
+                08/30/26
+            </div>
+
+            <p>
+                why does this look like 2004
+            </p>
+
+        </div>
+
+
+        <div class="guestbook-sign">
+
+            <a href="#">
+                [ SIGN MY GUESTBOOK ]
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer>
+
+        <div class="footer-line"></div>
+
+        <p>
+            YOU ARE VISITOR #
+            <span class="visitor-number">000184</span>
+        </p>
+
+        <p>
+            best viewed on a desktop computer :)
+        </p>
+
+        <p class="copyright">
+            © 2026 KWAME
+        </p>
+
+    </footer>
+
+</div>
+
+
+<!-- =========================================================
+     LIGHTBOX / CAMERA PLAYBACK SCREEN
+     ========================================================= -->
+
+<div
+    class="lightbox"
+    id="lightbox"
+    aria-hidden="true"
+>
+
+    <div class="playback-screen">
+
+        <!-- TOP CAMERA HUD -->
+
+        <div class="playback-top">
+
+            <div>
+                <span class="playback-icon">▶</span>
+                PLAY
+            </div>
+
+            <div id="playback-index">
+                001 / 001
+            </div>
+
+            <div class="playback-battery">
+                BAT
+                <span class="battery">
+                    <span class="battery-fill"></span>
+                </span>
+            </div>
+
+        </div>
+
+
+        <!-- IMAGE -->
+
+        <div class="playback-image-area">
+
+            <img
+                id="lightbox-image"
+                src=""
+                alt=""
+            >
+
+            <div class="focus-box">
+                +
+            </div>
+
+            <div class="playback-rec">
+                ● REC
+            </div>
+
+        </div>
+
+
+        <!-- METADATA -->
+
+        <div class="playback-info">
+
+            <div class="metadata-left">
+
+                <div class="meta-line">
+                    <span>FILE</span>
+                    <strong id="meta-filename">
+                        --
+                    </strong>
+                </div>
+
+                <div class="meta-line">
+                    <span>DATE</span>
+                    <strong id="meta-date">
+                        --
+                    </strong>
+                </div>
+
+                <div class="meta-line">
+                    <span>CAMERA</span>
+                    <strong id="meta-camera">
+                        --
+                    </strong>
+                </div>
+
+            </div>
+
+
+            <div class="metadata-right">
+
+                <div class="meta-line">
+                    <span>ISO</span>
+                    <strong id="meta-iso">
+                        --
+                    </strong>
+                </div>
+
+                <div class="meta-line">
+                    <span>F</span>
+                    <strong id="meta-aperture">
+                        --
+                    </strong>
+                </div>
+
+                <div class="meta-line">
+                    <span>SS</span>
+                    <strong id="meta-shutter">
+                        --
+                    </strong>
+                </div>
+
+                <div class="meta-line">
+                    <span>FL</span>
+                    <strong id="meta-focal">
+                        --
+                    </strong>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CONTROLS -->
+
+        <div class="playback-controls">
+
+            <button id="previous-photo">
+                ◀ PREV
+            </button>
+
+            <button id="close-lightbox">
+                ✕ CLOSE
+            </button>
+
+            <button id="next-photo">
+                NEXT ▶
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- EXIF parser -->
+<script src="https://cdn.jsdelivr.net/npm/exifr@7.1.3/dist/full.umd.js"></script>
+
+<!-- Site JavaScript -->
+<script src="gallery.js"></script>
+
+</body>
+</html>
