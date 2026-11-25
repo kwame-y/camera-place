@@ -1,5 +1,45 @@
 [
   {
+    "file": "photos/2026-11-08_15-11-12.jpg",
+    "thumbnail": "thumbnails/2026-11-08_15-11-12.jpg",
+    "timestamp": "2026-11-08T15:11:12",
+    "camera": "FUJIFILM FinePix F900EXR",
+    "iso": 800,
+    "aperture": 3.5,
+    "shutter": "1/15",
+    "focalLength": "4.6 mm"
+  },
+  {
+    "file": "photos/2026-11-08_15-11-03.jpg",
+    "thumbnail": "thumbnails/2026-11-08_15-11-03.jpg",
+    "timestamp": "2026-11-08T15:11:03",
+    "camera": "FUJIFILM FinePix F900EXR",
+    "iso": 800,
+    "aperture": 3.5,
+    "shutter": "1/15",
+    "focalLength": "4.6 mm"
+  },
+  {
+    "file": "photos/2026-11-08_14-02-55.jpg",
+    "thumbnail": "thumbnails/2026-11-08_14-02-55.jpg",
+    "timestamp": "2026-11-08T14:02:55",
+    "camera": "FUJIFILM FinePix F900EXR",
+    "iso": 800,
+    "aperture": 3.5,
+    "shutter": "1/15",
+    "focalLength": "4.6 mm"
+  },
+  {
+    "file": "photos/2026-11-07_19-10-18.jpg",
+    "thumbnail": "thumbnails/2026-11-07_19-10-18.jpg",
+    "timestamp": "2026-11-07T19:10:18",
+    "camera": "FUJIFILM FinePix F900EXR",
+    "iso": 800,
+    "aperture": 3.5,
+    "shutter": "1/10",
+    "focalLength": "4.6 mm"
+  },
+  {
     "file": "photos/2026-07-29_21-34-00.jpg",
     "thumbnail": "thumbnails/2026-07-29_21-34-00.jpg",
     "timestamp": "2026-11-07T19:09:03",
@@ -2768,5 +2808,45 @@
     "aperture": null,
     "shutter": null,
     "focalLength": null
+  },
+  {
+    "file": "photos/2013-01-05_17-19-10.jpg",
+    "thumbnail": "thumbnails/2013-01-05_17-19-10.jpg",
+    "timestamp": "2013-01-05T17:19:10",
+    "camera": "FUJIFILM FinePix F900EXR",
+    "iso": 400,
+    "aperture": 3.5,
+    "shutter": "1/75",
+    "focalLength": "4.6 mm"
+  },
+  {
+    "file": "photos/2013-01-05_17-18-29.jpg",
+    "thumbnail": "thumbnails/2013-01-05_17-18-29.jpg",
+    "timestamp": "2013-01-05T17:18:29",
+    "camera": "FUJIFILM FinePix F900EXR",
+    "iso": 400,
+    "aperture": 3.5,
+    "shutter": "1/75",
+    "focalLength": "4.6 mm"
+  },
+  {
+    "file": "photos/2013-01-05_17-18-27.jpg",
+    "thumbnail": "thumbnails/2013-01-05_17-18-27.jpg",
+    "timestamp": "2013-01-05T17:18:27",
+    "camera": "FUJIFILM FinePix F900EXR",
+    "iso": 400,
+    "aperture": 3.5,
+    "shutter": "1/60",
+    "focalLength": "4.6 mm"
+  },
+  {
+    "file": "photos/2013-01-03_17-39-24.jpg",
+    "thumbnail": "thumbnails/2013-01-03_17-39-24.jpg",
+    "timestamp": "2013-01-03T17:39:24",
+    "camera": "FUJIFILM FinePix F900EXR",
+    "iso": 3200,
+    "aperture": 3.5,
+    "shutter": "1/42",
+    "focalLength": "4.6 mm"
   }
 ]
