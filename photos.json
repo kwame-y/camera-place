@@ -1,5 +1,445 @@
 [
   {
+    "file": "photos/2021-02-15_11-53-29_1.jpg",
+    "thumbnail": "thumbnails/2021-02-15_11-53-29_1.jpg",
+    "timestamp": "2026-11-25T15:43:07",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-25-45_8.jpg",
+    "thumbnail": "thumbnails/2026-11-25_15-25-45_8.jpg",
+    "timestamp": "2026-11-25T15:43:07",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-25-45_7.jpg",
+    "thumbnail": "thumbnails/2026-11-25_15-25-45_7.jpg",
+    "timestamp": "2026-11-25T15:43:07",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-25-45_6.jpg",
+    "thumbnail": "thumbnails/2026-11-25_15-25-45_6.jpg",
+    "timestamp": "2026-11-25T15:43:07",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-25-45_5.jpg",
+    "thumbnail": "thumbnails/2026-11-25_15-25-45_5.jpg",
+    "timestamp": "2026-11-25T15:43:07",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2021-02-15_10-43-09_1.jpg",
+    "thumbnail": "thumbnails/2021-02-15_10-43-09_1.jpg",
+    "timestamp": "2026-11-25T15:43:07",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2021-02-15_10-41-20_1.jpg",
+    "thumbnail": "thumbnails/2021-02-15_10-41-20_1.jpg",
+    "timestamp": "2026-11-25T15:43:07",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2021-02-15_10-43-09.jpg",
+    "thumbnail": "thumbnails/2021-02-15_10-43-09.jpg",
+    "timestamp": "2026-11-25T15:43:06",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-25-45.jpg",
+    "thumbnail": "thumbnails/2026-11-25_15-25-45.jpg",
+    "timestamp": "2026-11-25T15:43:06",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2021-02-15_10-41-20.jpg",
+    "thumbnail": "thumbnails/2021-02-15_10-41-20.jpg",
+    "timestamp": "2026-11-25T15:43:06",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-25-45_1.jpg",
+    "thumbnail": "thumbnails/2026-11-25_15-25-45_1.jpg",
+    "timestamp": "2026-11-25T15:43:06",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-25-45_2.jpg",
+    "thumbnail": "thumbnails/2026-11-25_15-25-45_2.jpg",
+    "timestamp": "2026-11-25T15:43:06",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2021-02-15_10-42-17_1.jpg",
+    "thumbnail": "thumbnails/2021-02-15_10-42-17_1.jpg",
+    "timestamp": "2026-11-25T15:43:06",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-25-45_3.jpg",
+    "thumbnail": "thumbnails/2026-11-25_15-25-45_3.jpg",
+    "timestamp": "2026-11-25T15:43:06",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-25-45_4.jpg",
+    "thumbnail": "thumbnails/2026-11-25_15-25-45_4.jpg",
+    "timestamp": "2026-11-25T15:43:06",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2021-02-15_10-42-30.jpg",
+    "thumbnail": "thumbnails/2021-02-15_10-42-30.jpg",
+    "timestamp": "2026-11-25T15:43:06",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2021-02-15_10-42-30_1.jpg",
+    "thumbnail": "thumbnails/2021-02-15_10-42-30_1.jpg",
+    "timestamp": "2026-11-25T15:43:06",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2018-08-28_19-23-23.png",
+    "thumbnail": "thumbnails/2018-08-28_19-23-23.png",
+    "timestamp": "2026-11-25T15:43:05",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-25-42.jpg",
+    "thumbnail": "thumbnails/2026-11-25_15-25-42.jpg",
+    "timestamp": "2026-11-25T15:43:05",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2021-02-15_10-42-17.jpg",
+    "thumbnail": "thumbnails/2021-02-15_10-42-17.jpg",
+    "timestamp": "2026-11-25T15:43:05",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2021-02-15_11-53-29.jpg",
+    "thumbnail": "thumbnails/2021-02-15_11-53-29.jpg",
+    "timestamp": "2026-11-25T15:43:05",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-24-23_3.png",
+    "thumbnail": "thumbnails/2026-11-25_15-24-23_3.png",
+    "timestamp": "2026-11-25T15:43:05",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-24-23_2.png",
+    "thumbnail": "thumbnails/2026-11-25_15-24-23_2.png",
+    "timestamp": "2026-11-25T15:43:05",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2018-08-28_19-23-24.png",
+    "thumbnail": "thumbnails/2018-08-28_19-23-24.png",
+    "timestamp": "2026-11-25T15:43:04",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2018-08-28_19-23-25.png",
+    "thumbnail": "thumbnails/2018-08-28_19-23-25.png",
+    "timestamp": "2026-11-25T15:43:04",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2018-09-06_19-14-30.png",
+    "thumbnail": "thumbnails/2018-09-06_19-14-30.png",
+    "timestamp": "2026-11-25T15:43:04",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-24-23.png",
+    "thumbnail": "thumbnails/2026-11-25_15-24-23.png",
+    "timestamp": "2026-11-25T15:43:04",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-24-23_1.png",
+    "thumbnail": "thumbnails/2026-11-25_15-24-23_1.png",
+    "timestamp": "2026-11-25T15:43:04",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2018-04-01_11-53-51_2.png",
+    "thumbnail": "thumbnails/2018-04-01_11-53-51_2.png",
+    "timestamp": "2026-11-25T15:43:03",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2018-04-01_11-53-51_1.jpg",
+    "thumbnail": "thumbnails/2018-04-01_11-53-51_1.jpg",
+    "timestamp": "2026-11-25T15:43:03",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2018-04-18_13-39-38.jpg",
+    "thumbnail": "thumbnails/2018-04-18_13-39-38.jpg",
+    "timestamp": "2026-11-25T15:43:03",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-24-23.jpg",
+    "thumbnail": "thumbnails/2026-11-25_15-24-23.jpg",
+    "timestamp": "2026-11-25T15:43:03",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-24-20.png",
+    "thumbnail": "thumbnails/2026-11-25_15-24-20.png",
+    "timestamp": "2026-11-25T15:43:03",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-24-19.jpg",
+    "thumbnail": "thumbnails/2026-11-25_15-24-19.jpg",
+    "timestamp": "2026-11-25T15:43:03",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-24-19.png",
+    "thumbnail": "thumbnails/2026-11-25_15-24-19.png",
+    "timestamp": "2026-11-25T15:43:03",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2018-04-01_11-53-51_1.png",
+    "thumbnail": "thumbnails/2018-04-01_11-53-51_1.png",
+    "timestamp": "2026-11-25T15:43:02",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-24-07.png",
+    "thumbnail": "thumbnails/2026-11-25_15-24-07.png",
+    "timestamp": "2026-11-25T15:43:02",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2018-09-21_19-33-49.jpg",
+    "thumbnail": "thumbnails/2018-09-21_19-33-49.jpg",
+    "timestamp": "2026-11-25T15:43:02",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2018-04-01_11-53-51.jpg",
+    "thumbnail": "thumbnails/2018-04-01_11-53-51.jpg",
+    "timestamp": "2026-11-25T15:43:02",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2018-04-01_11-53-51.png",
+    "thumbnail": "thumbnails/2018-04-01_11-53-51.png",
+    "timestamp": "2026-11-25T15:43:02",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-24-09.jpg",
+    "thumbnail": "thumbnails/2026-11-25_15-24-09.jpg",
+    "timestamp": "2026-11-25T15:43:02",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-24-18.png",
+    "thumbnail": "thumbnails/2026-11-25_15-24-18.png",
+    "timestamp": "2026-11-25T15:43:02",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2026-11-25_15-24-18.jpg",
+    "thumbnail": "thumbnails/2026-11-25_15-24-18.jpg",
+    "timestamp": "2026-11-25T15:43:02",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
+    "file": "photos/2018-07-03_10-23-00.png",
+    "thumbnail": "thumbnails/2018-07-03_10-23-00.png",
+    "timestamp": "2026-11-25T15:43:01",
+    "camera": "DIGITAL CAMERA",
+    "iso": null,
+    "aperture": null,
+    "shutter": null,
+    "focalLength": null
+  },
+  {
     "file": "photos/2026-11-08_15-11-12.jpg",
     "thumbnail": "thumbnails/2026-11-08_15-11-12.jpg",
     "timestamp": "2026-11-08T15:11:12",
